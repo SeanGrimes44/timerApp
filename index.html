@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Timer</title>
+    
+</head>
+<body>
+    <h1>Online Timer</h1>
+    <h2 class="top">Enter a time.</h2>
+    <p class="info">
+        <label for="mname">minutes:</label>
+        <input type="number" class="number" id="menter" name="mname" step="1" maxlength="5">
+    </p>
+    <p class="info">
+        <label for="sname">seconds:</label>
+        <input type="number" class="number" id="senter" name="sname">
+    </p>
+
+    
+    <p class="info">
+        <button class="btn">Start Timer</button>
+    </p>
+
+    <h1 hidden class="timer">0:00</h1>
+
+    <p hidden class="cancel">
+        <button class="end">Cancel Timer</button>
+    </p>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
